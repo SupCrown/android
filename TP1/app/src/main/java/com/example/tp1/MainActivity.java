@@ -1,5 +1,6 @@
 package com.example.tp1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,18 +29,11 @@ public class MainActivity extends AppCompatActivity {
             b.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                 TextView text = findViewById(R.id.text2);
-                 text.setText("cliqué");
+                    Intent intent = new Intent(view.getContext(), MainActivity2.class);
+                    view.getContext().startActivity(intent);
                 }
             });
-            ImageView img = findViewById(R.id.imageView);
-            b.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    TextView text = findViewById(R.id.text2);
-                    text.setText("hello world");
-                }
-            });
+
 
             return insets;
 
