@@ -1,0 +1,1671 @@
+Index: TP_clicker/.idea/other.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/other.xml b/TP_clicker/.idea/other.xml
+deleted file mode 100644
+--- a/TP_clicker/.idea/other.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,428 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="direct_access_persist.xml">
+-    <option name="deviceSelectionList">
+-      <list>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="27" />
+-          <option name="brand" value="DOCOMO" />
+-          <option name="codename" value="F01L" />
+-          <option name="id" value="F01L" />
+-          <option name="manufacturer" value="FUJITSU" />
+-          <option name="name" value="F-01L" />
+-          <option name="screenDensity" value="360" />
+-          <option name="screenX" value="720" />
+-          <option name="screenY" value="1280" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="OPPO" />
+-          <option name="codename" value="OP573DL1" />
+-          <option name="id" value="OP573DL1" />
+-          <option name="manufacturer" value="OPPO" />
+-          <option name="name" value="CPH2557" />
+-          <option name="screenDensity" value="480" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="28" />
+-          <option name="brand" value="DOCOMO" />
+-          <option name="codename" value="SH-01L" />
+-          <option name="id" value="SH-01L" />
+-          <option name="manufacturer" value="SHARP" />
+-          <option name="name" value="AQUOS sense2 SH-01L" />
+-          <option name="screenDensity" value="480" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2160" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="Lenovo" />
+-          <option name="codename" value="TB370FU" />
+-          <option name="id" value="TB370FU" />
+-          <option name="manufacturer" value="Lenovo" />
+-          <option name="name" value="Tab P12" />
+-          <option name="screenDensity" value="340" />
+-          <option name="screenX" value="1840" />
+-          <option name="screenY" value="2944" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="a15" />
+-          <option name="id" value="a15" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="A15" />
+-          <option name="screenDensity" value="450" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2340" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="31" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="a51" />
+-          <option name="id" value="a51" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy A51" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="akita" />
+-          <option name="id" value="akita" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 8a" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="motorola" />
+-          <option name="codename" value="arcfox" />
+-          <option name="id" value="arcfox" />
+-          <option name="manufacturer" value="Motorola" />
+-          <option name="name" value="razr plus 2024" />
+-          <option name="screenDensity" value="360" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="1272" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="b0q" />
+-          <option name="id" value="b0q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy S22 Ultra" />
+-          <option name="screenDensity" value="600" />
+-          <option name="screenX" value="1440" />
+-          <option name="screenY" value="3088" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="32" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="bluejay" />
+-          <option name="id" value="bluejay" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 6a" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="caiman" />
+-          <option name="id" value="caiman" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 9 Pro" />
+-          <option name="screenDensity" value="360" />
+-          <option name="screenX" value="960" />
+-          <option name="screenY" value="2142" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="comet" />
+-          <option name="id" value="comet" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 9 Pro Fold" />
+-          <option name="screenDensity" value="390" />
+-          <option name="screenX" value="2076" />
+-          <option name="screenY" value="2152" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="29" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="crownqlteue" />
+-          <option name="id" value="crownqlteue" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Note9" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="2220" />
+-          <option name="screenY" value="1080" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="dm2q" />
+-          <option name="id" value="dm2q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="S23 Plus" />
+-          <option name="screenDensity" value="450" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2340" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="dm3q" />
+-          <option name="id" value="dm3q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy S23 Ultra" />
+-          <option name="screenDensity" value="600" />
+-          <option name="screenX" value="1440" />
+-          <option name="screenY" value="3088" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="e1q" />
+-          <option name="id" value="e1q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy S24" />
+-          <option name="screenDensity" value="480" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2340" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="e3q" />
+-          <option name="id" value="e3q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy S24 Ultra" />
+-          <option name="screenDensity" value="450" />
+-          <option name="screenX" value="1440" />
+-          <option name="screenY" value="3120" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="eos" />
+-          <option name="id" value="eos" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Eos" />
+-          <option name="screenDensity" value="320" />
+-          <option name="screenX" value="384" />
+-          <option name="screenY" value="384" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="felix" />
+-          <option name="id" value="felix" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Fold" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="2208" />
+-          <option name="screenY" value="1840" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="felix" />
+-          <option name="id" value="felix" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Fold" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="2208" />
+-          <option name="screenY" value="1840" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="felix_camera" />
+-          <option name="id" value="felix_camera" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Fold (Camera-enabled)" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="2208" />
+-          <option name="screenY" value="1840" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="motorola" />
+-          <option name="codename" value="fogona" />
+-          <option name="id" value="fogona" />
+-          <option name="manufacturer" value="Motorola" />
+-          <option name="name" value="moto g play - 2024" />
+-          <option name="screenDensity" value="280" />
+-          <option name="screenX" value="720" />
+-          <option name="screenY" value="1600" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="g0q" />
+-          <option name="id" value="g0q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="SM-S906U1" />
+-          <option name="screenDensity" value="450" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2340" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="gts8uwifi" />
+-          <option name="id" value="gts8uwifi" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Tab S8 Ultra" />
+-          <option name="screenDensity" value="320" />
+-          <option name="screenX" value="1848" />
+-          <option name="screenY" value="2960" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="husky" />
+-          <option name="id" value="husky" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 8 Pro" />
+-          <option name="screenDensity" value="390" />
+-          <option name="screenX" value="1008" />
+-          <option name="screenY" value="2244" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="30" />
+-          <option name="brand" value="motorola" />
+-          <option name="codename" value="java" />
+-          <option name="id" value="java" />
+-          <option name="manufacturer" value="Motorola" />
+-          <option name="name" value="G20" />
+-          <option name="screenDensity" value="280" />
+-          <option name="screenX" value="720" />
+-          <option name="screenY" value="1600" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="komodo" />
+-          <option name="id" value="komodo" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 9 Pro XL" />
+-          <option name="screenDensity" value="360" />
+-          <option name="screenX" value="1008" />
+-          <option name="screenY" value="2244" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="lynx" />
+-          <option name="id" value="lynx" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 7a" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="motorola" />
+-          <option name="codename" value="maui" />
+-          <option name="id" value="maui" />
+-          <option name="manufacturer" value="Motorola" />
+-          <option name="name" value="moto g play - 2023" />
+-          <option name="screenDensity" value="280" />
+-          <option name="screenX" value="720" />
+-          <option name="screenY" value="1600" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="31" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="oriole" />
+-          <option name="id" value="oriole" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 6" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="panther" />
+-          <option name="id" value="panther" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 7" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="q5q" />
+-          <option name="id" value="q5q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Z Fold5" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1812" />
+-          <option name="screenY" value="2176" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="q6q" />
+-          <option name="id" value="q6q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Z Fold6" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1856" />
+-          <option name="screenY" value="2160" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="30" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="r11" />
+-          <option name="id" value="r11" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Watch" />
+-          <option name="screenDensity" value="320" />
+-          <option name="screenX" value="384" />
+-          <option name="screenY" value="384" />
+-          <option name="type" value="WEAR_OS" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="30" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="redfin" />
+-          <option name="id" value="redfin" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 5" />
+-          <option name="screenDensity" value="440" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2340" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="shiba" />
+-          <option name="id" value="shiba" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 8" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="tangorpro" />
+-          <option name="id" value="tangorpro" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Tablet" />
+-          <option name="screenDensity" value="320" />
+-          <option name="screenX" value="1600" />
+-          <option name="screenY" value="2560" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="tokay" />
+-          <option name="id" value="tokay" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 9" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2424" />
+-        </PersistentDeviceSelectionData>
+-      </list>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: TP_clicker/.idea/migrations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/migrations.xml b/TP_clicker/.idea/migrations.xml
+deleted file mode 100644
+--- a/TP_clicker/.idea/migrations.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectMigrations">
+-    <option name="MigrateToGradleLocalJavaHome">
+-      <set>
+-        <option value="$PROJECT_DIR$" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: TP_clicker/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/misc.xml b/TP_clicker/.idea/misc.xml
+deleted file mode 100644
+--- a/TP_clicker/.idea/misc.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="Android" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: TP_clicker/settings.gradle.kts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/settings.gradle.kts b/TP_clicker/settings.gradle.kts
+deleted file mode 100644
+--- a/TP_clicker/settings.gradle.kts	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,24 +0,0 @@
+-pluginManagement {
+-    repositories {
+-        google {
+-            content {
+-                includeGroupByRegex("com\\.android.*")
+-                includeGroupByRegex("com\\.google.*")
+-                includeGroupByRegex("androidx.*")
+-            }
+-        }
+-        mavenCentral()
+-        gradlePluginPortal()
+-    }
+-}
+-dependencyResolutionManagement {
+-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+-    repositories {
+-        google()
+-        mavenCentral()
+-    }
+-}
+-
+-rootProject.name = "TP_clicker"
+-include(":app")
+- 
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/drawable/ic_launcher_foreground.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/drawable/ic_launcher_foreground.xml b/TP_clicker/app/src/main/res/drawable/ic_launcher_foreground.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/drawable/ic_launcher_foreground.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,30 +0,0 @@
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:aapt="http://schemas.android.com/aapt"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
+-        <aapt:attr name="android:fillColor">
+-            <gradient
+-                android:endX="85.84757"
+-                android:endY="92.4963"
+-                android:startX="42.9492"
+-                android:startY="49.59793"
+-                android:type="linear">
+-                <item
+-                    android:color="#44000000"
+-                    android:offset="0.0" />
+-                <item
+-                    android:color="#00000000"
+-                    android:offset="1.0" />
+-            </gradient>
+-        </aapt:attr>
+-    </path>
+-    <path
+-        android:fillColor="#FFFFFF"
+-        android:fillType="nonZero"
+-        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
+-        android:strokeWidth="1"
+-        android:strokeColor="#00000000" />
+-</vector>
+\ No newline at end of file
+Index: TP_clicker/gradle.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/TP_clicker/gradle.properties b/TP_clicker/gradle.properties
+deleted file mode 100644
+--- a/TP_clicker/gradle.properties	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,21 +0,0 @@
+-# Project-wide Gradle settings.
+-# IDE (e.g. Android Studio) users:
+-# Gradle settings configured through the IDE *will override*
+-# any settings specified in this file.
+-# For more details on how to configure your build environment visit
+-# http://www.gradle.org/docs/current/userguide/build_environment.html
+-# Specifies the JVM arguments used for the daemon process.
+-# The setting is particularly useful for tweaking memory settings.
+-org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+-# When configured, Gradle will run in incubating parallel mode.
+-# This option should only be used with decoupled projects. For more details, visit
+-# https://developer.android.com/r/tools/gradle-multi-project-decoupled-projects
+-# org.gradle.parallel=true
+-# AndroidX package structure to make it clearer which packages are bundled with the
+-# Android operating system, and which are packaged with your app's APK
+-# https://developer.android.com/topic/libraries/support-library/androidx-rn
+-android.useAndroidX=true
+-# Enables namespacing of each library's R class so that its R class includes only the
+-# resources declared in the library itself and none from the library's dependencies,
+-# thereby reducing the size of the R class for that library
+-android.nonTransitiveRClass=true
+\ No newline at end of file
+Index: TP_clicker/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/.gitignore b/TP_clicker/.idea/.gitignore
+deleted file mode 100644
+--- a/TP_clicker/.idea/.gitignore	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: TP_clicker/app/src/main/res/xml/data_extraction_rules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/xml/data_extraction_rules.xml b/TP_clicker/app/src/main/res/xml/data_extraction_rules.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/xml/data_extraction_rules.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,19 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?><!--
+-   Sample data extraction rules file; uncomment and customize as necessary.
+-   See https://developer.android.com/about/versions/12/backup-restore#xml-changes
+-   for details.
+--->
+-<data-extraction-rules>
+-    <cloud-backup>
+-        <!-- TODO: Use <include> and <exclude> to control what is backed up.
+-        <include .../>
+-        <exclude .../>
+-        -->
+-    </cloud-backup>
+-    <!--
+-    <device-transfer>
+-        <include .../>
+-        <exclude .../>
+-    </device-transfer>
+-    -->
+-</data-extraction-rules>
+\ No newline at end of file
+Index: TP_clicker/app/src/main/java/com/example/tp_clicker/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/java/com/example/tp_clicker/MainActivity.java b/TP_clicker/app/src/main/java/com/example/tp_clicker/MainActivity.java
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/java/com/example/tp_clicker/MainActivity.java	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,72 +0,0 @@
+-package com.example.tp_clicker;
+-
+-import android.annotation.SuppressLint;
+-import android.content.SharedPreferences;
+-import android.os.Bundle;
+-import android.view.View;
+-import android.widget.ImageButton;
+-import android.widget.RelativeLayout;
+-import android.widget.TextView;
+-
+-import androidx.activity.EdgeToEdge;
+-import androidx.appcompat.app.AppCompatActivity;
+-import androidx.core.graphics.Insets;
+-import androidx.core.view.ViewCompat;
+-import androidx.core.view.WindowInsetsCompat;
+-
+-public class MainActivity extends AppCompatActivity {
+-
+-
+-    TextView score, hightscore ;
+-
+-    @SuppressLint("MissingInflatedId")
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        EdgeToEdge.enable(this);
+-        setContentView(R.layout.activity_main);
+-
+-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.Mainscoreid), (v, insets) -> {
+-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+-            return insets;
+-
+-        });
+-
+-        hightscore = findViewById(R.id.Textscoreid);
+-        score = findViewById(R.id.ScoreID);
+-        ImageButton Cookie = findViewById(R.id.cookieId);
+-
+-        final int[] nbcookie = {0};
+-        // final RelativeLayout layout = findViewById(R.id.Mainscoreid);
+-
+-        Cookie.setOnClickListener(new View.OnClickListener() {
+-
+-            public void onClick(View view) {
+-
+-
+-                gethightscore();
+-                nbcookie[0] = nbcookie[0] + 1;
+-                TextView text = findViewById(R.id.textId);
+-                text.setText("Vous avez "+ nbcookie[0] +" cookies");
+-                savehightscore();
+-
+-            }
+-
+-        });
+-
+-
+-
+-    }
+-    private void gethightscore(){
+-        SharedPreferences Spref = getSharedPreferences("hightscore",MODE_PRIVATE);
+-        int main_score = Spref.getInt("hightscore", 0);
+-        score.setText(String.valueOf(main_score));
+-    };
+-    private void savehightscore(){
+-        SharedPreferences Spref = getSharedPreferences("hightscore",MODE_PRIVATE);
+-        SharedPreferences.Editor myEdit = Spref.edit();
+-        myEdit.putInt("hightscore", Integer.parseInt(score.getText().toString()));
+-        myEdit.apply();
+-    };
+-}
+\ No newline at end of file
+Index: TP_clicker/app/build.gradle.kts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/build.gradle.kts b/TP_clicker/app/build.gradle.kts
+deleted file mode 100644
+--- a/TP_clicker/app/build.gradle.kts	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,43 +0,0 @@
+-plugins {
+-    alias(libs.plugins.android.application)
+-}
+-
+-android {
+-    namespace = "com.example.tp_clicker"
+-    compileSdk = 34
+-
+-    defaultConfig {
+-        applicationId = "com.example.tp_clicker"
+-        minSdk = 24
+-        targetSdk = 34
+-        versionCode = 1
+-        versionName = "1.0"
+-
+-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+-    }
+-
+-    buildTypes {
+-        release {
+-            isMinifyEnabled = false
+-            proguardFiles(
+-                getDefaultProguardFile("proguard-android-optimize.txt"),
+-                "proguard-rules.pro"
+-            )
+-        }
+-    }
+-    compileOptions {
+-        sourceCompatibility = JavaVersion.VERSION_1_8
+-        targetCompatibility = JavaVersion.VERSION_1_8
+-    }
+-}
+-
+-dependencies {
+-
+-    implementation(libs.appcompat)
+-    implementation(libs.material)
+-    implementation(libs.activity)
+-    implementation(libs.constraintlayout)
+-    testImplementation(libs.junit)
+-    androidTestImplementation(libs.ext.junit)
+-    androidTestImplementation(libs.espresso.core)
+-}
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/values/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/values/themes.xml b/TP_clicker/app/src/main/res/values/themes.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/values/themes.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,9 +0,0 @@
+-<resources xmlns:tools="http://schemas.android.com/tools">
+-    <!-- Base application theme. -->
+-    <style name="Base.Theme.TP_clicker" parent="Theme.Material3.DayNight.NoActionBar">
+-        <!-- Customize your light theme here. -->
+-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+-    </style>
+-
+-    <style name="Theme.TP_clicker" parent="Base.Theme.TP_clicker" />
+-</resources>
+\ No newline at end of file
+Index: TP_clicker/gradle/libs.versions.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/gradle/libs.versions.toml b/TP_clicker/gradle/libs.versions.toml
+deleted file mode 100644
+--- a/TP_clicker/gradle/libs.versions.toml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,22 +0,0 @@
+-[versions]
+-agp = "8.5.0"
+-junit = "4.13.2"
+-junitVersion = "1.2.1"
+-espressoCore = "3.6.1"
+-appcompat = "1.7.0"
+-material = "1.12.0"
+-activity = "1.10.0"
+-constraintlayout = "2.2.0"
+-
+-[libraries]
+-junit = { group = "junit", name = "junit", version.ref = "junit" }
+-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+-activity = { group = "androidx.activity", name = "activity", version = "1.9.3" }
+-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+-
+-[plugins]
+-android-application = { id = "com.android.application", version.ref = "agp" }
+-
+Index: TP_clicker/app/src/main/res/xml/backup_rules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/xml/backup_rules.xml b/TP_clicker/app/src/main/res/xml/backup_rules.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/xml/backup_rules.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?><!--
+-   Sample backup rules file; uncomment and customize as necessary.
+-   See https://developer.android.com/guide/topics/data/autobackup
+-   for details.
+-   Note: This file is ignored for devices older that API 31
+-   See https://developer.android.com/about/versions/12/backup-restore
+--->
+-<full-backup-content>
+-    <!--
+-   <include domain="sharedpref" path="."/>
+-   <exclude domain="sharedpref" path="device.xml"/>
+--->
+-</full-backup-content>
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/layout/activity_main.xml b/TP_clicker/app/src/main/res/layout/activity_main.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/layout/activity_main.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,91 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:app="http://schemas.android.com/apk/res-auto"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:id="@+id/Mainscoreid"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".MainActivity"
+-    android:background="@drawable/cookiefond">
+-
+-    <TextView
+-        android:id="@+id/textId"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:background="@color/white"
+-        android:fontFamily="sans-serif-light"
+-        android:text="clicker sur le cookie"
+-        android:textColor="#040404"
+-        android:textSize="20sp"
+-        android:typeface="serif"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:layout_constraintVertical_bias="0.904" />
+-
+-    <Spinner
+-        android:id="@+id/Upspinnerid"
+-        android:layout_width="150dp"
+-        android:layout_height="wrap_content"
+-        android:background="@color/white"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.938"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:layout_constraintVertical_bias="0.571" />
+-
+-    <ImageButton
+-        android:id="@+id/cookieId"
+-        android:layout_width="290dp"
+-        android:layout_height="313dp"
+-        android:background="@android:color/transparent"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.495"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:layout_constraintVertical_bias="0.148"
+-        app:srcCompat="@drawable/cookie" />
+-
+-    <Spinner
+-        android:id="@+id/Modespinner2"
+-        android:layout_width="409dp"
+-        android:layout_height="wrap_content"
+-        android:background="@color/white"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.0"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:layout_constraintVertical_bias="0.0" />
+-
+-    <TextView
+-        android:id="@+id/Textscoreid"
+-        android:layout_width="100dp"
+-        android:layout_height="19dp"
+-        android:background="@android:color/black"
+-        android:text="Meilleur Score"
+-        android:textColor="@color/white"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.064"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="@+id/Modespinner2"
+-        app:layout_constraintVertical_bias="0.674" />
+-
+-    <TextView
+-        android:id="@+id/ScoreID"
+-        android:layout_width="wrap_content"
+-        android:layout_height="wrap_content"
+-        android:background="@color/black"
+-        android:textColor="@color/white"
+-        app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.145"
+-        app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent"
+-        app:layout_constraintVertical_bias="0.7" />
+-
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: TP_clicker/app/src/test/java/com/example/tp_clicker/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/test/java/com/example/tp_clicker/ExampleUnitTest.java b/TP_clicker/app/src/test/java/com/example/tp_clicker/ExampleUnitTest.java
+deleted file mode 100644
+--- a/TP_clicker/app/src/test/java/com/example/tp_clicker/ExampleUnitTest.java	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,17 +0,0 @@
+-package com.example.tp_clicker;
+-
+-import org.junit.Test;
+-
+-import static org.junit.Assert.*;
+-
+-/**
+- * Example local unit test, which will execute on the development machine (host).
+- *
+- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+- */
+-public class ExampleUnitTest {
+-    @Test
+-    public void addition_isCorrect() {
+-        assertEquals(4, 2 + 2);
+-    }
+-}
+\ No newline at end of file
+Index: TP_clicker/app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/AndroidManifest.xml b/TP_clicker/app/src/main/AndroidManifest.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/AndroidManifest.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,28 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools">
+-
+-    <application
+-        android:allowBackup="true"
+-        android:dataExtractionRules="@xml/data_extraction_rules"
+-        android:fullBackupContent="@xml/backup_rules"
+-        android:icon="@mipmap/ic_launcher"
+-        android:label="@string/app_name"
+-        android:roundIcon="@mipmap/ic_launcher_round"
+-        android:supportsRtl="true"
+-        android:theme="@style/Theme.TP_clicker"
+-        tools:targetApi="31">
+-
+-        <activity
+-            android:name=".MainActivity"
+-            android:exported="true">
+-            <intent-filter>
+-                <action android:name="android.intent.action.MAIN" />
+-                <category android:name="android.intent.category.LAUNCHER" />
+-            </intent-filter>
+-        </activity>
+-
+-
+-    </application>
+-
+-</manifest>
+\ No newline at end of file
+Index: TP_clicker/app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/proguard-rules.pro b/TP_clicker/app/proguard-rules.pro
+deleted file mode 100644
+--- a/TP_clicker/app/proguard-rules.pro	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,21 +0,0 @@
+-# Add project specific ProGuard rules here.
+-# You can control the set of applied configuration files using the
+-# proguardFiles setting in build.gradle.
+-#
+-# For more details, see
+-#   http://developer.android.com/guide/developing/tools/proguard.html
+-
+-# If your project uses WebView with JS, uncomment the following
+-# and specify the fully qualified class name to the JavaScript interface
+-# class:
+-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+-#   public *;
+-#}
+-
+-# Uncomment this to preserve the line number information for
+-# debugging stack traces.
+-#-keepattributes SourceFile,LineNumberTable
+-
+-# If you keep the line number information, uncomment this to
+-# hide the original source file name.
+-#-renamesourcefileattribute SourceFile
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/values/strings.xml b/TP_clicker/app/src/main/res/values/strings.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/values/strings.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,3 +0,0 @@
+-<resources>
+-    <string name="app_name">TP_clicker</string>
+-</resources>
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/values/colors.xml b/TP_clicker/app/src/main/res/values/colors.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/values/colors.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,5 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<resources>
+-    <color name="black">#FF000000</color>
+-    <color name="white">#FFFFFFFF</color>
+-</resources>
+\ No newline at end of file
+Index: TP_clicker/app/src/androidTest/java/com/example/tp_clicker/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/androidTest/java/com/example/tp_clicker/ExampleInstrumentedTest.java b/TP_clicker/app/src/androidTest/java/com/example/tp_clicker/ExampleInstrumentedTest.java
+deleted file mode 100644
+--- a/TP_clicker/app/src/androidTest/java/com/example/tp_clicker/ExampleInstrumentedTest.java	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,26 +0,0 @@
+-package com.example.tp_clicker;
+-
+-import android.content.Context;
+-
+-import androidx.test.platform.app.InstrumentationRegistry;
+-import androidx.test.ext.junit.runners.AndroidJUnit4;
+-
+-import org.junit.Test;
+-import org.junit.runner.RunWith;
+-
+-import static org.junit.Assert.*;
+-
+-/**
+- * Instrumented test, which will execute on an Android device.
+- *
+- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+- */
+-@RunWith(AndroidJUnit4.class)
+-public class ExampleInstrumentedTest {
+-    @Test
+-    public void useAppContext() {
+-        // Context of the app under test.
+-        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+-        assertEquals("com.example.tp_clicker", appContext.getPackageName());
+-    }
+-}
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml b/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+-    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+-</adaptive-icon>
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml b/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+-    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+-</adaptive-icon>
+\ No newline at end of file
+Index: TP_clicker/app/src/main/res/drawable/ic_launcher_background.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/drawable/ic_launcher_background.xml b/TP_clicker/app/src/main/res/drawable/ic_launcher_background.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/drawable/ic_launcher_background.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,170 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <path
+-        android:fillColor="#3DDC84"
+-        android:pathData="M0,0h108v108h-108z" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M9,0L9,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,0L19,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M29,0L29,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M39,0L39,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M49,0L49,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M59,0L59,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M69,0L69,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M79,0L79,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M89,0L89,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M99,0L99,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,9L108,9"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,19L108,19"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,29L108,29"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,39L108,39"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,49L108,49"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,59L108,59"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,69L108,69"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,79L108,79"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,89L108,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,99L108,99"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,29L89,29"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,39L89,39"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,49L89,49"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,59L89,59"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,69L89,69"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,79L89,79"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M29,19L29,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M39,19L39,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M49,19L49,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M59,19L59,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M69,19L69,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M79,19L79,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-</vector>
+Index: TP_clicker/app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/.gitignore b/TP_clicker/app/.gitignore
+deleted file mode 100644
+--- a/TP_clicker/app/.gitignore	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,1 +0,0 @@
+-/build
+\ No newline at end of file
+Index: TP_clicker/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/gradle.xml b/TP_clicker/.idea/gradle.xml
+deleted file mode 100644
+--- a/TP_clicker/.idea/gradle.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,19 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GradleMigrationSettings" migrationVersion="1" />
+-  <component name="GradleSettings">
+-    <option name="linkedExternalProjectsSettings">
+-      <GradleProjectSettings>
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+-        <option name="modules">
+-          <set>
+-            <option value="$PROJECT_DIR$" />
+-            <option value="$PROJECT_DIR$/app" />
+-          </set>
+-        </option>
+-        <option name="resolveExternalAnnotations" value="false" />
+-      </GradleProjectSettings>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: TP_clicker/.idea/deploymentTargetSelector.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/deploymentTargetSelector.xml b/TP_clicker/.idea/deploymentTargetSelector.xml
+deleted file mode 100644
+--- a/TP_clicker/.idea/deploymentTargetSelector.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="deploymentTargetSelector">
+-    <selectionStates>
+-      <SelectionState runConfigName="app">
+-        <option name="selectionMode" value="DROPDOWN" />
+-      </SelectionState>
+-    </selectionStates>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: TP_clicker/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.gitignore b/TP_clicker/.gitignore
+deleted file mode 100644
+--- a/TP_clicker/.gitignore	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,15 +0,0 @@
+-*.iml
+-.gradle
+-/local.properties
+-/.idea/caches
+-/.idea/libraries
+-/.idea/modules.xml
+-/.idea/workspace.xml
+-/.idea/navEditor.xml
+-/.idea/assetWizardSettings.xml
+-.DS_Store
+-/build
+-/captures
+-.externalNativeBuild
+-.cxx
+-local.properties
+Index: TP_clicker/app/src/main/res/values-night/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/app/src/main/res/values-night/themes.xml b/TP_clicker/app/src/main/res/values-night/themes.xml
+deleted file mode 100644
+--- a/TP_clicker/app/src/main/res/values-night/themes.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,7 +0,0 @@
+-<resources xmlns:tools="http://schemas.android.com/tools">
+-    <!-- Base application theme. -->
+-    <style name="Base.Theme.TP_clicker" parent="Theme.Material3.DayNight.NoActionBar">
+-        <!-- Customize your dark theme here. -->
+-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+-    </style>
+-</resources>
+\ No newline at end of file
+Index: TP_clicker/build.gradle.kts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/build.gradle.kts b/TP_clicker/build.gradle.kts
+deleted file mode 100644
+--- a/TP_clicker/build.gradle.kts	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,4 +0,0 @@
+-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+-plugins {
+-    alias(libs.plugins.android.application) apply false
+-}
+\ No newline at end of file
+Index: TP_clicker/gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/TP_clicker/gradle/wrapper/gradle-wrapper.properties b/TP_clicker/gradle/wrapper/gradle-wrapper.properties
+deleted file mode 100644
+--- a/TP_clicker/gradle/wrapper/gradle-wrapper.properties	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,6 +0,0 @@
+-#Tue Feb 04 11:40:04 CET 2025
+-distributionBase=GRADLE_USER_HOME
+-distributionPath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-milestone-3-bin.zip
+-zipStoreBase=GRADLE_USER_HOME
+-zipStorePath=wrapper/dists
+Index: TP_clicker/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/compiler.xml b/TP_clicker/.idea/compiler.xml
+deleted file mode 100644
+--- a/TP_clicker/.idea/compiler.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="17" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: TP_clicker/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TP_clicker/.idea/vcs.xml b/TP_clicker/.idea/vcs.xml
+deleted file mode 100644
+--- a/TP_clicker/.idea/vcs.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ /dev/null	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"NONE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"38237065-7090-40b8-bb20-d073ab3e5f6b\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 3\n}]]></component>\n  <component name=\"ProjectId\" id=\"2sZY2ApBbEBnZ8kdl9Mej02d6ak\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"RunOnceActivity.readMode.enableVisualFormatting\": \"true\",\n    \"cf.first.check.clang-format\": \"false\",\n    \"cidr.known.project.marker\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/users/but/info/bloised/AndroidStudioProjects/android_kebaili_bloise/TP_clicker\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"38237065-7090-40b8-bb20-d073ab3e5f6b\" name=\"Changes\" comment=\"\" />\n      <created>1738664354713</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1738664354713</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ b/.idea/workspace.xml	(date 1740041253418)
+@@ -4,7 +4,57 @@
+     <option name="autoReloadType" value="NONE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="38237065-7090-40b8-bb20-d073ab3e5f6b" name="Changes" comment="" />
++    <list default="true" id="38237065-7090-40b8-bb20-d073ab3e5f6b" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/compiler.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/deploymentTargetSelector.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/gradle.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/migrations.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/misc.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/other.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/vcs.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/build.gradle.kts" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/proguard-rules.pro" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/androidTest/java/com/example/tp_clicker/ExampleInstrumentedTest.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/AndroidManifest.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/java/com/example/tp_clicker/MainActivity.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/cookie.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/cookiefond.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/egout.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/jardin.jpeg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values-night/themes.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/colors.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/strings.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/themes.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/test/java/com/example/tp_clicker/ExampleUnitTest.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/build.gradle.kts" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/gradle.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/gradle/libs.versions.toml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/gradlew" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/gradlew.bat" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/TP_clicker/settings.gradle.kts" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -16,9 +66,9 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 3
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 3
++}</component>
+   <component name="ProjectId" id="2sZY2ApBbEBnZ8kdl9Mej02d6ak" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -33,7 +83,7 @@
+     "cidr.known.project.marker": "true",
+     "git-widget-placeholder": "main",
+     "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "/users/but/info/bloised/AndroidStudioProjects/android_kebaili_bloise/TP_clicker"
++    "last_opened_file_path": "/users/but/info/bloised/AndroidStudioProjects/android_kebaili_bloise"
+   }
+ }]]></component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+Index: .idea/other.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"direct_access_persist.xml\">\n    <option name=\"deviceSelectionList\">\n      <list>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"27\" />\n          <option name=\"brand\" value=\"DOCOMO\" />\n          <option name=\"codename\" value=\"F01L\" />\n          <option name=\"id\" value=\"F01L\" />\n          <option name=\"manufacturer\" value=\"FUJITSU\" />\n          <option name=\"name\" value=\"F-01L\" />\n          <option name=\"screenDensity\" value=\"360\" />\n          <option name=\"screenX\" value=\"720\" />\n          <option name=\"screenY\" value=\"1280\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"OPPO\" />\n          <option name=\"codename\" value=\"OP573DL1\" />\n          <option name=\"id\" value=\"OP573DL1\" />\n          <option name=\"manufacturer\" value=\"OPPO\" />\n          <option name=\"name\" value=\"CPH2557\" />\n          <option name=\"screenDensity\" value=\"480\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"28\" />\n          <option name=\"brand\" value=\"DOCOMO\" />\n          <option name=\"codename\" value=\"SH-01L\" />\n          <option name=\"id\" value=\"SH-01L\" />\n          <option name=\"manufacturer\" value=\"SHARP\" />\n          <option name=\"name\" value=\"AQUOS sense2 SH-01L\" />\n          <option name=\"screenDensity\" value=\"480\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2160\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"Lenovo\" />\n          <option name=\"codename\" value=\"TB370FU\" />\n          <option name=\"id\" value=\"TB370FU\" />\n          <option name=\"manufacturer\" value=\"Lenovo\" />\n          <option name=\"name\" value=\"Tab P12\" />\n          <option name=\"screenDensity\" value=\"340\" />\n          <option name=\"screenX\" value=\"1840\" />\n          <option name=\"screenY\" value=\"2944\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"31\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"a51\" />\n          <option name=\"id\" value=\"a51\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy A51\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"akita\" />\n          <option name=\"id\" value=\"akita\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 8a\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"b0q\" />\n          <option name=\"id\" value=\"b0q\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy S22 Ultra\" />\n          <option name=\"screenDensity\" value=\"600\" />\n          <option name=\"screenX\" value=\"1440\" />\n          <option name=\"screenY\" value=\"3088\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"32\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"bluejay\" />\n          <option name=\"id\" value=\"bluejay\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 6a\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"caiman\" />\n          <option name=\"id\" value=\"caiman\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 9 Pro\" />\n          <option name=\"screenDensity\" value=\"360\" />\n          <option name=\"screenX\" value=\"960\" />\n          <option name=\"screenY\" value=\"2142\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"comet\" />\n          <option name=\"id\" value=\"comet\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 9 Pro Fold\" />\n          <option name=\"screenDensity\" value=\"390\" />\n          <option name=\"screenX\" value=\"2076\" />\n          <option name=\"screenY\" value=\"2152\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"29\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"crownqlteue\" />\n          <option name=\"id\" value=\"crownqlteue\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy Note9\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"2220\" />\n          <option name=\"screenY\" value=\"1080\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"dm2q\" />\n          <option name=\"id\" value=\"dm2q\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"S23 Plus\" />\n          <option name=\"screenDensity\" value=\"450\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2340\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"dm3q\" />\n          <option name=\"id\" value=\"dm3q\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy S23 Ultra\" />\n          <option name=\"screenDensity\" value=\"600\" />\n          <option name=\"screenX\" value=\"1440\" />\n          <option name=\"screenY\" value=\"3088\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"e1q\" />\n          <option name=\"id\" value=\"e1q\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy S24\" />\n          <option name=\"screenDensity\" value=\"480\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2340\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"e3q\" />\n          <option name=\"id\" value=\"e3q\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy S24 Ultra\" />\n          <option name=\"screenDensity\" value=\"450\" />\n          <option name=\"screenX\" value=\"1440\" />\n          <option name=\"screenY\" value=\"3120\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"eos\" />\n          <option name=\"id\" value=\"eos\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Eos\" />\n          <option name=\"screenDensity\" value=\"320\" />\n          <option name=\"screenX\" value=\"384\" />\n          <option name=\"screenY\" value=\"384\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"felix\" />\n          <option name=\"id\" value=\"felix\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel Fold\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"2208\" />\n          <option name=\"screenY\" value=\"1840\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"felix\" />\n          <option name=\"id\" value=\"felix\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel Fold\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"2208\" />\n          <option name=\"screenY\" value=\"1840\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"felix_camera\" />\n          <option name=\"id\" value=\"felix_camera\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel Fold (Camera-enabled)\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"2208\" />\n          <option name=\"screenY\" value=\"1840\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"motorola\" />\n          <option name=\"codename\" value=\"fogona\" />\n          <option name=\"id\" value=\"fogona\" />\n          <option name=\"manufacturer\" value=\"Motorola\" />\n          <option name=\"name\" value=\"moto g play - 2024\" />\n          <option name=\"screenDensity\" value=\"280\" />\n          <option name=\"screenX\" value=\"720\" />\n          <option name=\"screenY\" value=\"1600\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"gts8uwifi\" />\n          <option name=\"id\" value=\"gts8uwifi\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy Tab S8 Ultra\" />\n          <option name=\"screenDensity\" value=\"320\" />\n          <option name=\"screenX\" value=\"1848\" />\n          <option name=\"screenY\" value=\"2960\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"husky\" />\n          <option name=\"id\" value=\"husky\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 8 Pro\" />\n          <option name=\"screenDensity\" value=\"390\" />\n          <option name=\"screenX\" value=\"1008\" />\n          <option name=\"screenY\" value=\"2244\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"30\" />\n          <option name=\"brand\" value=\"motorola\" />\n          <option name=\"codename\" value=\"java\" />\n          <option name=\"id\" value=\"java\" />\n          <option name=\"manufacturer\" value=\"Motorola\" />\n          <option name=\"name\" value=\"G20\" />\n          <option name=\"screenDensity\" value=\"280\" />\n          <option name=\"screenX\" value=\"720\" />\n          <option name=\"screenY\" value=\"1600\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"komodo\" />\n          <option name=\"id\" value=\"komodo\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 9 Pro XL\" />\n          <option name=\"screenDensity\" value=\"360\" />\n          <option name=\"screenX\" value=\"1008\" />\n          <option name=\"screenY\" value=\"2244\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"lynx\" />\n          <option name=\"id\" value=\"lynx\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 7a\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"motorola\" />\n          <option name=\"codename\" value=\"maui\" />\n          <option name=\"id\" value=\"maui\" />\n          <option name=\"manufacturer\" value=\"Motorola\" />\n          <option name=\"name\" value=\"moto g play - 2023\" />\n          <option name=\"screenDensity\" value=\"280\" />\n          <option name=\"screenX\" value=\"720\" />\n          <option name=\"screenY\" value=\"1600\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"31\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"oriole\" />\n          <option name=\"id\" value=\"oriole\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 6\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"panther\" />\n          <option name=\"id\" value=\"panther\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 7\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"q5q\" />\n          <option name=\"id\" value=\"q5q\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy Z Fold5\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1812\" />\n          <option name=\"screenY\" value=\"2176\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"samsung\" />\n          <option name=\"codename\" value=\"q6q\" />\n          <option name=\"id\" value=\"q6q\" />\n          <option name=\"manufacturer\" value=\"Samsung\" />\n          <option name=\"name\" value=\"Galaxy Z Fold6\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1856\" />\n          <option name=\"screenY\" value=\"2160\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"30\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"r11\" />\n          <option name=\"id\" value=\"r11\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel Watch\" />\n          <option name=\"screenDensity\" value=\"320\" />\n          <option name=\"screenX\" value=\"384\" />\n          <option name=\"screenY\" value=\"384\" />\n          <option name=\"type\" value=\"WEAR_OS\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"30\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"redfin\" />\n          <option name=\"id\" value=\"redfin\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 5\" />\n          <option name=\"screenDensity\" value=\"440\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2340\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"shiba\" />\n          <option name=\"id\" value=\"shiba\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 8\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2400\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"33\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"tangorpro\" />\n          <option name=\"id\" value=\"tangorpro\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel Tablet\" />\n          <option name=\"screenDensity\" value=\"320\" />\n          <option name=\"screenX\" value=\"1600\" />\n          <option name=\"screenY\" value=\"2560\" />\n        </PersistentDeviceSelectionData>\n        <PersistentDeviceSelectionData>\n          <option name=\"api\" value=\"34\" />\n          <option name=\"brand\" value=\"google\" />\n          <option name=\"codename\" value=\"tokay\" />\n          <option name=\"id\" value=\"tokay\" />\n          <option name=\"manufacturer\" value=\"Google\" />\n          <option name=\"name\" value=\"Pixel 9\" />\n          <option name=\"screenDensity\" value=\"420\" />\n          <option name=\"screenX\" value=\"1080\" />\n          <option name=\"screenY\" value=\"2424\" />\n        </PersistentDeviceSelectionData>\n      </list>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/other.xml b/.idea/other.xml
+--- a/.idea/other.xml	(revision 528af352f1909d7b1f262bfed58346544a3ed419)
++++ b/.idea/other.xml	(date 1740041253410)
+@@ -48,6 +48,17 @@
+           <option name="screenY" value="2944" />
+         </PersistentDeviceSelectionData>
+         <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="samsung" />
++          <option name="codename" value="a15" />
++          <option name="id" value="a15" />
++          <option name="manufacturer" value="Samsung" />
++          <option name="name" value="A15" />
++          <option name="screenDensity" value="450" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="2340" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
+           <option name="api" value="31" />
+           <option name="brand" value="samsung" />
+           <option name="codename" value="a51" />
+@@ -68,6 +79,17 @@
+           <option name="screenDensity" value="420" />
+           <option name="screenX" value="1080" />
+           <option name="screenY" value="2400" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="motorola" />
++          <option name="codename" value="arcfox" />
++          <option name="id" value="arcfox" />
++          <option name="manufacturer" value="Motorola" />
++          <option name="name" value="razr plus 2024" />
++          <option name="screenDensity" value="360" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="1272" />
+         </PersistentDeviceSelectionData>
+         <PersistentDeviceSelectionData>
+           <option name="api" value="33" />
+@@ -224,6 +246,17 @@
+           <option name="screenY" value="1600" />
+         </PersistentDeviceSelectionData>
+         <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="samsung" />
++          <option name="codename" value="g0q" />
++          <option name="id" value="g0q" />
++          <option name="manufacturer" value="Samsung" />
++          <option name="name" value="SM-S906U1" />
++          <option name="screenDensity" value="450" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="2340" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
+           <option name="api" value="33" />
+           <option name="brand" value="samsung" />
+           <option name="codename" value="gts8uwifi" />
+@@ -344,6 +377,17 @@
+           <option name="screenX" value="384" />
+           <option name="screenY" value="384" />
+           <option name="type" value="WEAR_OS" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="samsung" />
++          <option name="codename" value="r11q" />
++          <option name="id" value="r11q" />
++          <option name="manufacturer" value="Samsung" />
++          <option name="name" value="SM-S711U" />
++          <option name="screenDensity" value="450" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="2340" />
+         </PersistentDeviceSelectionData>
+         <PersistentDeviceSelectionData>
+           <option name="api" value="30" />
