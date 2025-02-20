@@ -2,6 +2,7 @@ package com.Kebaili_Bloise.controller;
 
 import android.app.GameManager;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
 
 
@@ -32,7 +33,20 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Game Controller");
 
 
+
+        Button button = findViewById(R.id.button);
+        button.setOnClickListener(v -> {onclic();});
+
+
+
+
+    }
+
+    private void onclic() {
         EditText IP = findViewById(R.id.textconnectionid);
+        GameMessageManager.connect(IP.getText().toString(),6969);
+        val intent = Intent(this, SecondActivity::class.java)
+        startActivity(intent)
     }
 
 

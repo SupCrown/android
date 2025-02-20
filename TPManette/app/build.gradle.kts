@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.Kebaili_Bloise.controller"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.Kebaili_Bloise.controller"
