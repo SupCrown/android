@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38237065-7090-40b8-bb20-d073ab3e5f6b" name="Changes" comment="" />
+    <list default="true" id="38237065-7090-40b8-bb20-d073ab3e5f6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/androidTest/java/com/example/tp_clicker/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/androidTest/java/com/example/tp_clicker/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/java/com/example/tp_clicker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/java/com/example/tp_clicker/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/app/src/test/java/com/example/tp_clicker/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/app/src/test/java/com/example/tp_clicker/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_clicker/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_clicker/settings.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +52,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPENED",
+    "assignee": {
+      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
+      "username": "project_7882_bot_1fa3c05e5d18c7f1b88e7cc927031ced",
+      "fullname": "token"
+    }
+  }
 }]]></component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "first": "https://gitlab.iut-valence.fr/kebailij/android_kebaili_bloise.git",
+    "second": "8ee87c0d-345d-41fc-960f-5ee00cc58db8"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sZY2ApBbEBnZ8kdl9Mej02d6ak" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,7 +85,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/users/but/info/bloised/AndroidStudioProjects/android_kebaili_bloise/TP_clicker"
+    "last_opened_file_path": "C:/Users/damie/StudioProjects/android_kebaili_bloise/TP_clicker"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -12,7 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TP_clicker"
         tools:targetApi="31">
-
+        <activity
+            android:name=".BestscoreActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ModeSpeedActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ModeInfernalActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".SelectActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
