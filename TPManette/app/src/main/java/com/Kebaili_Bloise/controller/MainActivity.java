@@ -38,8 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
-
             public void onClick(View view) {
+                EditText IP = findViewById(R.id.textconnectionid);
+                GameMessageManager.connect(IP.getText().toString(),6969);
                 Intent intent = new Intent(MainActivity.this, Controller.class);
                 startActivity(intent);
             }
