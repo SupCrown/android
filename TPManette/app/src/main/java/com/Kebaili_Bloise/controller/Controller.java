@@ -48,5 +48,13 @@ public class Controller extends AppCompatActivity {
 
             }
         });
+        ImageButton shoot = findViewById(R.id.shoot);
+        shoot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Controller.this, ControllerJoystick.class);
+                startActivity(intent);
+            }
+        });
 }
 }
