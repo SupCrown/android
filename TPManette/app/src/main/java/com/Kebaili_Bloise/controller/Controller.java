@@ -99,7 +99,7 @@ public class Controller extends AppCompatActivity {
                     @Override
                     public void run() {
                         // Vérifier la connexion dans le nouveau thread
-                        if (GameMessageManager.isConnected()) {if (shooting[0] == 1.0F) {
+                        if (GameMessageManager.isConnected()) {if (shooting[0] == 1.0) {
                             shooting[0] = 0.0F;
                             GameMessageManager.sendMessage("GunTrig"+ shooting[0]);}
                             else {
