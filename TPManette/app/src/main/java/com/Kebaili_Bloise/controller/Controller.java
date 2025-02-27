@@ -76,13 +76,7 @@ public class Controller extends AppCompatActivity {
                 return false;
             }
         });
-        Button button = findViewById(R.id.buttonid);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
         ImageButton up = findViewById(R.id.up);
         up.setOnTouchListener(new View.OnTouchListener() {
             @Override
