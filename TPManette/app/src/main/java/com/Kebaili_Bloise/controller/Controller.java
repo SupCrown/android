@@ -113,9 +113,7 @@ public class Controller extends AppCompatActivity {
                 }).start(); // Démarrer le thread
 
 
-
             }
         });
-
 }
 }
