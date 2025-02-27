@@ -18,7 +18,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ControllerJoystick  extends  AppCompatActivity  {
 
-
     public JoystickView.ValueChangedHandler changedHandler;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,11 +52,11 @@ public class ControllerJoystick  extends  AppCompatActivity  {
 
 
             }
+
         });
         Joystick.addView(new JoystickView(this, changedHandler));
-    }
 }
-
+}
 
 
 
