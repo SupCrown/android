@@ -15,6 +15,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -40,10 +46,23 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 EditText IP = findViewById(R.id.textconnectionid);
-                GameMessageManager.connect(IP.getText().toString(),6969);
-                Intent intent = new Intent(MainActivity.this, Controller.class);
-                startActivity(intent);
+                EditText pseudo = findViewById(R.id.pseudo);
+                new Thread(){
+                    public void run() {
+                        GameMessageManager.connect(IP.getText().toString(),6969);
+
+                        System.out.println(pseudo.getText().toString());
+
+                        Intent intent = new Intent(MainActivity.this, Controller.class);
+                        intent.putExtra("NAME", "COL=0=0=255#NAME="+pseudo.getText().toString());
+                        startActivity(intent);
+                    }}.start();
+
             }
+
+
+
+
 
         });
 
