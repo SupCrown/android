@@ -4,7 +4,10 @@ package com.Kebaili_Bloise.controller;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,7 +34,26 @@ public class ControllerJoystick  extends  AppCompatActivity  {
         });
 
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) FrameLayout Joystick = findViewById(R.id.joystickid);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button right = findViewById(R.id.button2id);
+        right.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        // Vérifier la connexion dans le nouveau thread
+                        if (GameMessageManager.isConnected()) {
+                            // Envoyer le message dans le nouveau thread
+                            GameMessageManager.sendMessage("MotR=1");
+                        } else {
+                            // Gérer le cas où la connexion n'est pas établie
+                            // Par exemple, afficher un message d'erreur ou réessayer plus tard
+                            System.err.println("Connexion non établie !");
+                        }}
+                }).start(); // Démarrer le thread
 
+
+            }
+        });
         Joystick.addView(new JoystickView(this, changedHandler));
     }
 }
