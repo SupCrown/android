@@ -1,62 +1,80 @@
 package com.Kebaili_Bloise.controller;
 
-
-import android.annotation.SuppressLint;
-import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+public class ControllerJoystick extends AppCompatActivity {
 
-public class ControllerJoystick  extends  AppCompatActivity  {
+    private JoystickView joystickView; // Vue personnalisée du joystick
 
-    public JoystickView.ValueChangedHandler changedHandler;
-
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_joystick_controller);
 
+        // Trouver le frame dans lequel le joystick sera placé
+        FrameLayout joystickContainer = findViewById(R.id.joystickid);
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+        // Crée le joystick et l'ajoute au FrameLayout
+        joystickView = new JoystickView(this);
+        joystickContainer.addView(joystickView);
+
+        // Initialiser le bouton pour tirer (shoot)
+        ImageButton shootButton = findViewById(R.id.shutbuttonid);
+
+        // Listener pour le bouton de tir
+        shootButton.setOnClickListener(v -> {
+            Toast.makeText(this, "Fire command sent!", Toast.LENGTH_SHORT).show();
+            sendCommand("GunTrig=1"); // Envoyer une commande pour tirer
         });
 
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) FrameLayout Joystick = findViewById(R.id.joystickid);
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button right = findViewById(R.id.button2id);
-        right.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        // Vérifier la connexion dans le nouveau thread
-                        if (GameMessageManager.isConnected()) {
-                            // Envoyer le message dans le nouveau thread
-                            GameMessageManager.sendMessage("MotR=1");
-                        } else {
-                            // Gérer le cas où la connexion n'est pas établie
-                            // Par exemple, afficher un message d'erreur ou réessayer plus tard
-                            System.err.println("Connexion non établie !");
-                        }}
-                }).start(); // Démarrer le thread
-
-
-            }
-
+        // Listener pour arrêter le tir (par joystick reset ou autre)
+        Button joystickResetButton = findViewById(R.id.joystick);
+        joystickResetButton.setOnClickListener(v -> {
+            joystickView.resetStick(); // Remets le joystick au centre
+            Toast.makeText(this, "Joystick reset!", Toast.LENGTH_SHORT).show();
         });
-        Joystick.addView(new JoystickView(this, changedHandler));
+
+        // Écouter les mouvements du joystick
+        joystickView.setOnJoystickMoveListener((angle, strength) -> {
+            // Convertir les mouvements en puissance moteur et envoyer des commandes
+            float motorPowerLeft = calculateMotorPower(angle, strength, true); // Moteur gauche
+            float motorPowerRight = calculateMotorPower(angle, strength, false); // Moteur droit
+
+            sendCommand("MotL=" + motorPowerLeft);
+            sendCommand("MotR=" + motorPowerRight);
+        });
+    }
+
+    /**
+     * Méthode de calcul de la puissance moteur en fonction des mouvements du joystick.
+     */
+    private float calculateMotorPower(int angle, int strength, boolean isLeftMotor) {
+        float power = strength / 100.0f;
+
+        // Si le joystick pointe en arrière, inverser la direction
+        if (angle > 90 && angle < 270) {
+            power = -power;
+        }
+
+        // Simple logique pour différencier gauche et droite (inverser un angle si nécessaire)
+        if (isLeftMotor && angle > 180) {
+            power = -power;
+        }
+
+        return (power + 1) / 2; // Normaliser dans la plage [0.0 - 1.0]
+    }
+
+    /**
+     * Méthode pour envoyer une commande au serveur.
+     */
+    private void sendCommand(String command) {
+        // Coupe uniquement pour montrer les commandes. Remplacez par votre logique serveur
+        Toast.makeText(this, "Command sent: " + command, Toast.LENGTH_SHORT).show();
+    }
 }
-}
-
-
-
