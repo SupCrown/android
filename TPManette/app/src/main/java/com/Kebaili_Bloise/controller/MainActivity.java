@@ -1,6 +1,5 @@
 package com.Kebaili_Bloise.controller;
 
-import android.app.GameManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,12 +13,6 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.net.Socket;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,6 +40,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 EditText IP = findViewById(R.id.textconnectionid);
                 EditText pseudo = findViewById(R.id.pseudo);
+                EditText color = findViewById(R.id.color);
+                String couleur ="";
+                if (color.getText().toString().equals("blue")) {
+                    couleur = "0=0=255";
+                } else if (color.getText().toString().equals("green")) {
+                    couleur = "0=255=0";
+                } else if (color.getText().toString().equals("red")) {
+                    couleur = "255=0=0";
+                }
+                String finalCouleur = couleur;
                 new Thread(){
                     public void run() {
                         GameMessageManager.connect(IP.getText().toString(),6969);
@@ -54,7 +57,8 @@ public class MainActivity extends AppCompatActivity {
                         System.out.println(pseudo.getText().toString());
 
                         Intent intent = new Intent(MainActivity.this, Controller.class);
-                        intent.putExtra("NAME", "COL=0=0=255#NAME="+pseudo.getText().toString());
+                        intent.putExtra("NAME", "NAME="+pseudo.getText().toString());
+                        intent.putExtra("COL", "COL="+ finalCouleur);
                         startActivity(intent);
                     }}.start();
 

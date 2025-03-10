@@ -32,14 +32,10 @@ public class Controller extends AppCompatActivity {
         });
         Intent intent = getIntent();
         String pseudo = intent.getStringExtra("NAME");
+        String color = intent.getStringExtra("COL");
         System.out.println(pseudo);
-        new Thread(
-                new Runnable() {
-                    @Override
-                    public void run() {
-                        GameMessageManager.sendMessage(pseudo);
-                 }});
 
+        settings(pseudo, color);
 
         ImageButton right = findViewById(R.id.right);
         right.setOnTouchListener(new View.OnTouchListener() {
@@ -115,6 +111,8 @@ public class Controller extends AppCompatActivity {
         });
     }
 
+
+
     private void sendMovementMessage() {
         new Thread(new Runnable() {
             @Override
@@ -154,6 +152,20 @@ public class Controller extends AppCompatActivity {
                 }
 
                 GameMessageManager.sendMessage("MotR=" + motR + "#MotL=" + motL);
+            }
+        }).start();
+
+    }
+
+    private void settings(String pseudo, String color) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                if (GameMessageManager.isConnected()) {
+                    GameMessageManager.sendMessage(pseudo);
+                    System.out.println(color);
+                    GameMessageManager.sendMessage(color);
+                }
             }
         }).start();
     }
