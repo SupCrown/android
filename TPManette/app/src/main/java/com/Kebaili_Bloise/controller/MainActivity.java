@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                EditText IP = findViewById(R.id.textconnectionid);
-                EditText pseudo = findViewById(R.id.pseudo);
+                EditText IP = findViewById(R.id.messageid);
+                EditText pseudo = findViewById(R.id.result);
                 EditText color = findViewById(R.id.color);
                 String couleur ="";
                 if (color.getText().toString().equals("blue")) {

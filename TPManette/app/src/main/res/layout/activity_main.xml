@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.379" />
 
     <EditText
-        android:id="@+id/textconnectionid"
+        android:id="@+id/messageid"
         android:layout_width="322dp"
         android:layout_height="66dp"
         android:text="172.26.14.17"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/pseudo"
+        android:id="@+id/result"
         android:layout_width="292dp"
         android:layout_height="61dp"
         android:ems="10"
