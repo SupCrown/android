@@ -2,106 +2,167 @@ package com.Kebaili_Bloise.controller;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.PointF;
-import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-public class JoystickView extends View {
+/**
+ * Displays a cursor in a circle. The cursor moves on touch events. Cursor position is
+ * monitored and updated to determine two speeds suitable to control a robot.
+ */
+public class JoystickView extends View{
 
-   private PointF baseCenter = new PointF();
-   private PointF stickPosition = new PointF();
-   private float baseRadius;
-   private float stickRadius;
+   private final Paint mCirclePaint;
+   private final Paint mButtonPaint;
+   private boolean mIsTouchDown = false;
 
-   private OnJoystickMoveListener listener;
+   /**
+    * Interface of the callback function that is called each time joystick value changes.
+    */
+   public interface ValueChangedHandler{
+      void onValueChanged(int Vg, int Vd);
+   }
 
-   public JoystickView(Context context) {
+   /**
+    * Register a callback function to be called when value changes
+    * @param pValueChangeHandler callback function called when value changes
+    */
+   public void setValueChangeHandler(ValueChangedHandler pValueChangeHandler) {
+      this.mValueChangeHandler = pValueChangeHandler;
+   }
+
+   private int buttonCenterX = -1;
+   private int buttonCenterY = -1;
+   private int canvasCenterX = -1;
+   private int canvasCenterY = -1;
+   private static int sCircleRadius = 200;
+   private static int buttonRadius = sCircleRadius / 10;
+
+   private final static int sVMax = 100;
+   private ValueChangedHandler mValueChangeHandler;
+
+   public JoystickView(Context context, ValueChangedHandler pValueChangeHandler) {
       super(context);
-      initJoystick();
+      mCirclePaint = new Paint();
+      mCirclePaint.setARGB(50, 200,200,200);
+      mCirclePaint.setStyle(Paint.Style.STROKE);
+      mCirclePaint.setStrokeWidth(5.0f);
+
+      mButtonPaint = new Paint();
+
+      this.mValueChangeHandler = pValueChangeHandler;
    }
 
-   public JoystickView(Context context, AttributeSet attrs) {
-      super(context, attrs);
-      initJoystick();
-   }
-
-   private void initJoystick() {
-      baseRadius = dpToPx(150);
-      stickRadius = dpToPx(50);
-      resetStick();
-   }
-
-   public void resetStick() {
-      stickPosition.set(baseCenter.x, baseCenter.y);
-      invalidate(); // Redessiner après réinitialisation
-   }
-
-   @Override
-   protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-      baseCenter.set(w / 2f, h / 2f);
-      resetStick();
+   public void setJoystickRadius(int rad)
+   {
+      sCircleRadius = rad;
+      buttonRadius = rad/10;
    }
 
    @Override
    protected void onDraw(Canvas canvas) {
-      Paint basePaint = new Paint();
-      basePaint.setColor(Color.GRAY);
-      canvas.drawCircle(baseCenter.x, baseCenter.y, baseRadius, basePaint);
+      super.onDraw(canvas);
+      if (canvasCenterX == -1) {
+         int w = canvas.getWidth();
+         int h = canvas.getHeight();
 
-      Paint stickPaint = new Paint();
-      stickPaint.setColor(Color.RED);
-      canvas.drawCircle(stickPosition.x, stickPosition.y, stickRadius, stickPaint);
+         canvasCenterX = w / 2;
+         canvasCenterY = h / 2;
+      }
+
+      canvas.drawCircle(canvasCenterX,canvasCenterY, sCircleRadius, mCirclePaint);
+
+      if (buttonCenterX == -1)
+      {
+         buttonCenterX = canvasCenterX;
+         buttonCenterY = canvasCenterY;
+      }
+
+      if (mIsTouchDown)
+      {
+         mButtonPaint.setStyle(Paint.Style.FILL_AND_STROKE);
+         mButtonPaint.setARGB(255,41,148,255);
+         canvas.drawCircle(buttonCenterX,buttonCenterY, 2*buttonRadius, mButtonPaint);
+         mButtonPaint.setStyle(Paint.Style.STROKE);
+         mButtonPaint.setARGB(50, 200,200,200);
+         mButtonPaint.setStrokeWidth(5.0f);
+         canvas.drawCircle(buttonCenterX,buttonCenterY, 2*buttonRadius+15, mButtonPaint);
+      }
+      else{
+         mButtonPaint.setStyle(Paint.Style.FILL_AND_STROKE);
+         mButtonPaint.setARGB(120, 41,148,255);
+         mButtonPaint.setStrokeWidth(5.0f);
+         canvas.drawCircle(buttonCenterX,buttonCenterY, buttonRadius, mButtonPaint);
+      }
    }
 
    @Override
    public boolean onTouchEvent(MotionEvent event) {
-      float x = event.getX();
-      float y = event.getY();
-      float dx = x - baseCenter.x;
-      float dy = y - baseCenter.y;
+      switch (event.getAction())
+      {
+         case MotionEvent.ACTION_DOWN:
+         case MotionEvent.ACTION_MOVE:
+            mIsTouchDown = true;
+            buttonCenterX = Math.round(event.getX());
+            buttonCenterY = Math.round(event.getY());
+            final double X = buttonCenterX-canvasCenterX;
+            final double Y = canvasCenterY-buttonCenterY; // Y axis is inverted in the View
+            double Vg = Y + (X/2.0);
+            double Vd = Y - (X/2.0);
+            if (Y < 0){
+               Vd = Vg;
+               Vg = Y - X;
+            }
 
-      if (event.getAction() == MotionEvent.ACTION_UP) {
-         resetStick(); // Recentrer après relâchement
-      } else {
-         double distance = Math.sqrt(dx * dx + dy * dy);
-         if (distance > baseRadius) {
-            dx *= baseRadius / distance;
-            dy *= baseRadius / distance;
-         }
-         stickPosition.set(baseCenter.x + dx, baseCenter.y + dy);
+            final double leftSpeed = (sVMax * Vg)/sCircleRadius;
+            final int lSpeed;
+            if (leftSpeed >= 0) {
+               lSpeed = (int) Math.round(Math.min(sVMax, leftSpeed));
+            } else {
+               lSpeed = (int) Math.round(Math.max(-sVMax, leftSpeed));
+            }
+
+            final double rightSpeed = (sVMax * Vd)/sCircleRadius;
+            final int rSpeed;
+            if (rightSpeed >= 0) {
+               rSpeed = (int) Math.round(Math.min(sVMax, rightSpeed));
+            } else {
+               rSpeed = (int) Math.round(Math.max(-sVMax, rightSpeed));
+            }
+            if (mValueChangeHandler != null) {
+               // Invoke the callback function with computed values
+               mValueChangeHandler.onValueChanged(lSpeed, rSpeed);
+            }
+            // Redraw with new button coordinate
+            invalidate();
+            return true;
+
+         case MotionEvent.ACTION_UP:
+            mIsTouchDown = false;
+            buttonCenterX = canvasCenterX;
+            buttonCenterY = canvasCenterY;
+            if (mValueChangeHandler != null) {
+               // Invoke the callback function to reset command
+               mValueChangeHandler.onValueChanged(0, 0);
+            }
+            invalidate();
+            new Thread(new Runnable() {
+               @Override
+               public void run() {
+                  GameMessageManager.sendMessage("MotL=0.5#MotR=0.5");
+               }
+            });
+            return true;
+         default:
+            Log.i("Jostick:", "Joystick received event : "+ event.getAction());
       }
 
-      // Calcul du déplacement du joystick en angle et en force
-      if (listener != null) {
-         listener.onMove(calculateAngle(dx, dy), calculateStrength(dx, dy));
-      }
-
-      invalidate(); // Redessiner la vue
-      return true;
+      return false;
    }
 
-   private int calculateAngle(float dx, float dy) {
-      double angle = Math.toDegrees(Math.atan2(-dy, dx));
-      return (int) ((angle + 360) % 360);
-   }
-
-   private int calculateStrength(float dx, float dy) {
-      float distance = (float) Math.sqrt(dx * dx + dy * dy);
-      return (int) ((distance / baseRadius) * 100);
-   }
-
-   private float dpToPx(int dp) {
-      return dp * getResources().getDisplayMetrics().density;
-   }
-
-   public interface OnJoystickMoveListener {
-      void onMove(int angle, int strength);
-   }
-
-   public void setOnJoystickMoveListener(OnJoystickMoveListener listener) {
-      this.listener = listener;
+   public static int getsVMax()
+   {
+      return sVMax;
    }
 }

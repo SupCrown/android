@@ -1,6 +1,7 @@
 package com.Kebaili_Bloise.controller;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
@@ -12,43 +13,32 @@ public class ControllerJoystick extends AppCompatActivity {
 
     private JoystickView joystickView; // Vue personnalisée du joystick
 
+    private Handler joystickHandler = new Handler();
+    private Runnable joystickRunnable;
+    private static final long JOYSTICK_UPDATE_INTERVAL = 100; // Intervalle en millisecondes
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_joystick_controller);
 
-        // Trouver le frame dans lequel le joystick sera placé
-        FrameLayout joystickContainer = findViewById(R.id.joystickid);
-
-        // Crée le joystick et l'ajoute au FrameLayout
-        joystickView = new JoystickView(this);
+        // Initialisation du joystick et des boutons
+        FrameLayout joystickContainer = findViewById(R.id.frameJoy);
+        JoystickView joystickView = new JoystickView(this, new JoystickValueChangedHandler());
+        joystickView.setJoystickRadius(100);
         joystickContainer.addView(joystickView);
 
-        // Initialiser le bouton pour tirer (shoot)
         ImageButton shootButton = findViewById(R.id.shutbuttonid);
+        shootButton.setOnClickListener(v -> sendCommand("GunTrig=1"));
 
-        // Listener pour le bouton de tir
-        shootButton.setOnClickListener(v -> {
-            Toast.makeText(this, "Fire command sent!", Toast.LENGTH_SHORT).show();
-            sendCommand("GunTrig=1"); // Envoyer une commande pour tirer
-        });
 
-        // Listener pour arrêter le tir (par joystick reset ou autre)
-        Button joystickResetButton = findViewById(R.id.joystick);
-        joystickResetButton.setOnClickListener(v -> {
-            joystickView.resetStick(); // Remets le joystick au centre
-            Toast.makeText(this, "Joystick reset!", Toast.LENGTH_SHORT).show();
-        });
+    }
 
-        // Écouter les mouvements du joystick
-        joystickView.setOnJoystickMoveListener((angle, strength) -> {
-            // Convertir les mouvements en puissance moteur et envoyer des commandes
-            float motorPowerLeft = calculateMotorPower(angle, strength, true); // Moteur gauche
-            float motorPowerRight = calculateMotorPower(angle, strength, false); // Moteur droit
-
-            sendCommand("MotL=" + motorPowerLeft);
-            sendCommand("MotR=" + motorPowerRight);
-        });
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        // Arrêter le Handler lorsque l'activité est détruite
+        joystickHandler.removeCallbacks(joystickRunnable);
     }
 
     /**
@@ -74,7 +64,17 @@ public class ControllerJoystick extends AppCompatActivity {
      * Méthode pour envoyer une commande au serveur.
      */
     private void sendCommand(String command) {
-        // Coupe uniquement pour montrer les commandes. Remplacez par votre logique serveur
-        Toast.makeText(this, "Command sent: " + command, Toast.LENGTH_SHORT).show();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                if (!GameMessageManager.isConnected()) {
+                    System.err.println("Connexion non établie !");
+                    return;
+                } else {
+                    System.out.println(command);
+                    GameMessageManager.sendMessage(command);
+                }
+            }
+        }).start(); // Start the thread
     }
 }
