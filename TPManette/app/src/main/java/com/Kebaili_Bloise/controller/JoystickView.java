@@ -147,6 +147,12 @@ public class JoystickView extends View{
                mValueChangeHandler.onValueChanged(0, 0);
             }
             invalidate();
+            new Thread(new Runnable() {
+               @Override
+               public void run() {
+                  GameMessageManager.sendMessage("MotL=0.5#MotR=0.5");
+               }
+            });
             return true;
          default:
             Log.i("Jostick:", "Joystick received event : "+ event.getAction());

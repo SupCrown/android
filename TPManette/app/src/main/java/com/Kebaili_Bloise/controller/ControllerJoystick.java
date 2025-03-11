@@ -1,62 +1,80 @@
 package com.Kebaili_Bloise.controller;
 
-
-import android.annotation.SuppressLint;
-import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
+import android.os.Handler;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+public class ControllerJoystick extends AppCompatActivity {
 
-public class ControllerJoystick  extends  AppCompatActivity  {
+    private JoystickView joystickView; // Vue personnalisée du joystick
 
-    public JoystickView.ValueChangedHandler changedHandler;
+    private Handler joystickHandler = new Handler();
+    private Runnable joystickRunnable;
+    private static final long JOYSTICK_UPDATE_INTERVAL = 100; // Intervalle en millisecondes
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_joystick_controller);
 
+        // Initialisation du joystick et des boutons
+        FrameLayout joystickContainer = findViewById(R.id.frameJoy);
+        JoystickView joystickView = new JoystickView(this, new JoystickValueChangedHandler());
+        joystickView.setJoystickRadius(100);
+        joystickContainer.addView(joystickView);
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
-
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) FrameLayout Joystick = findViewById(R.id.joystickid);
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button right = findViewById(R.id.button2id);
-        right.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        // Vérifier la connexion dans le nouveau thread
-                        if (GameMessageManager.isConnected()) {
-                            // Envoyer le message dans le nouveau thread
-                            GameMessageManager.sendMessage("MotR=1");
-                        } else {
-                            // Gérer le cas où la connexion n'est pas établie
-                            // Par exemple, afficher un message d'erreur ou réessayer plus tard
-                            System.err.println("Connexion non établie !");
-                        }}
-                }).start(); // Démarrer le thread
+        ImageButton shootButton = findViewById(R.id.shutbuttonid);
+        shootButton.setOnClickListener(v -> sendCommand("GunTrig=1"));
 
 
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        // Arrêter le Handler lorsque l'activité est détruite
+        joystickHandler.removeCallbacks(joystickRunnable);
+    }
+
+    /**
+     * Méthode de calcul de la puissance moteur en fonction des mouvements du joystick.
+     */
+    private float calculateMotorPower(int angle, int strength, boolean isLeftMotor) {
+        float power = strength / 100.0f;
+
+        // Si le joystick pointe en arrière, inverser la direction
+        if (angle > 90 && angle < 270) {
+            power = -power;
+        }
+
+        // Simple logique pour différencier gauche et droite (inverser un angle si nécessaire)
+        if (isLeftMotor && angle > 180) {
+            power = -power;
+        }
+
+        return (power + 1) / 2; // Normaliser dans la plage [0.0 - 1.0]
+    }
+
+    /**
+     * Méthode pour envoyer une commande au serveur.
+     */
+    private void sendCommand(String command) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                if (!GameMessageManager.isConnected()) {
+                    System.err.println("Connexion non établie !");
+                    return;
+                } else {
+                    System.out.println(command);
+                    GameMessageManager.sendMessage(command);
+                }
             }
-
-        });
-        Joystick.addView(new JoystickView(this, changedHandler));
+        }).start(); // Start the thread
+    }
 }
-}
-
-
-
