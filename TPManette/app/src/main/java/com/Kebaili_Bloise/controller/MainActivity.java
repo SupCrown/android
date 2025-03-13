@@ -1,7 +1,8 @@
 package com.Kebaili_Bloise.controller;
 
-import android.app.GameManager;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -35,19 +36,45 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button button = findViewById(R.id.button);
-        button.setOnClickListener(v -> {onclic();});
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                EditText IP = findViewById(R.id.messageid);
+                EditText pseudo = findViewById(R.id.result);
+                EditText color = findViewById(R.id.color);
+                String couleur ="";
+                if (color.getText().toString().equals("blue")) {
+                    couleur = "0=0=255";
+                } else if (color.getText().toString().equals("green")) {
+                    couleur = "0=255=0";
+                } else if (color.getText().toString().equals("red")) {
+                    couleur = "255=0=0";
+                }
+                String finalCouleur = couleur;
+                new Thread(){
+                    public void run() {
+                        GameMessageManager.connect(IP.getText().toString(),6969);
+
+                        System.out.println(pseudo.getText().toString());
+
+                        Intent intent = new Intent(MainActivity.this, Controller.class);
+                        intent.putExtra("NAME", "NAME="+pseudo.getText().toString());
+                        intent.putExtra("COL", "COL="+ finalCouleur);
+                        startActivity(intent);
+                    }}.start();
+
+            }
+
+
+
+
+
+        });
 
 
 
 
     }
 
-    private void onclic() {
-        EditText IP = findViewById(R.id.textconnectionid);
-        GameMessageManager.connect(IP.getText().toString(),6969);
-        val intent = Intent(this, SecondActivity::class.java)
-        startActivity(intent)
-    }
 
 
 
