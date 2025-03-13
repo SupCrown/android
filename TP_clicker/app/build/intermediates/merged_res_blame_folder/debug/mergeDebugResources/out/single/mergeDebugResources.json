@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_cookiefond.jpg.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\cookiefond.jpg"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_rouleau.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\rouleau.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\layout_modeinfernal.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\layout\\modeinfernal.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_porte.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\porte.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_pepites_chocolat.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\pepites_chocolat.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\layout_selectmode.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\layout\\selectmode.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_parchemin.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\parchemin.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_cookie.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\cookie.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\layout_modespeed.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\layout\\modespeed.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_egout.jpg.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\egout.jpg"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_bandeau.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\bandeau.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_pointinter.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\pointinter.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_jardin.jpeg.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\jardin.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_etagere.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\etagere.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_plaque.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\plaque.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_beurre.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\beurre.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\drawable_door_10.png.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\drawable\\door_10.png"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\layout_bestscore.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\layout\\bestscore.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\damie\\.gradle\\daemon\\8.13-milestone-3\\com.example.tp_clicker.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.tp_clicker.app-debug-31:/layout_bestscore.xml.flat",
+        "source": "com.example.tp_clicker.app-main-33:/layout/bestscore.xml"
+    }
+]
