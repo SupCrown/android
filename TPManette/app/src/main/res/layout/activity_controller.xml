@@ -5,29 +5,44 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fond"
     tools:context=".Controller">
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:text="Message"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797" />
 
     <ImageButton
         android:id="@+id/right"
         android:layout_width="99dp"
         android:layout_height="89dp"
-        android:background="@color/white"
+        android:background="@android:color/transparent"
         android:contentDescription="fleche"
+        android:rotation="90"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/down"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.747"
         app:layout_constraintStart_toEndOf="@+id/left"
         app:layout_constraintTop_toTopOf="@+id/down"
-        app:srcCompat="@drawable/fleche_removebg_preview" />
+        app:srcCompat="@drawable/fleche_" />
 
     <ImageButton
         android:id="@+id/left"
         android:layout_width="97dp"
         android:layout_height="87dp"
-        android:background="@color/white"
+        android:background="@android:color/transparent"
         android:contentDescription="fleche"
-        android:rotation="180"
+        android:rotation="270"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/right"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,15 +50,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/right"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/fleche_removebg_preview" />
+        app:srcCompat="@drawable/fleche_" />
 
     <ImageButton
         android:id="@+id/up"
         android:layout_width="97dp"
         android:layout_height="91dp"
-        android:background="@color/white"
+        android:background="@android:color/transparent"
         android:contentDescription="fleche"
-        android:rotation="270"
+        android:rotation="0"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/right"
@@ -51,14 +66,14 @@
         app:layout_constraintStart_toStartOf="@+id/left"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.425"
-        app:srcCompat="@drawable/fleche_removebg_preview"
+        app:srcCompat="@drawable/fleche_"
         tools:ignore="DuplicateIds" />
 
     <ImageButton
         android:id="@+id/shoot"
         android:layout_width="133dp"
         android:layout_height="116dp"
-        android:background="@color/white"
+        android:background="@android:color/transparent"
         android:contentDescription="fleche"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,15 +82,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.891"
-        app:srcCompat="@drawable/target" />
+        app:srcCompat="@drawable/cible" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="@android:color/transparent"
         android:text="Game"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -89,8 +104,8 @@
         android:id="@+id/down"
         android:layout_width="95dp"
         android:layout_height="89dp"
-        android:background="#FFFFFF"
-        android:rotation="90"
+        android:background="@android:color/transparent"
+        android:rotation="180"
         android:rotationY="4"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -99,17 +114,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.622"
-        app:srcCompat="@drawable/fleche_removebg_preview" />
+        app:srcCompat="@drawable/fleche_" />
 
     <Button
-        android:id="@+id/joystick"
+        android:id="@+id/send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="joystick"
+        android:text="send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.901" />
 </androidx.constraintlayout.widget.ConstraintLayout>

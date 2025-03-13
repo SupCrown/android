@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
@@ -32,12 +33,6 @@ public class Controller extends AppCompatActivity {
             return insets;
         });
 
-        Button button = findViewById(R.id.joystick);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent intent = new Intent(Controller.this, ControllerJoystick.class);
-                startActivity(intent);
-            }});
 
         Intent intent = getIntent();
         String pseudo = intent.getStringExtra("NAME");
@@ -61,6 +56,21 @@ public class Controller extends AppCompatActivity {
                         return true;
                 }
                 return false;
+            }
+        });
+
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) EditText message = findViewById(R.id.message);
+
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button send = findViewById(R.id.send);
+        send.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        GameMessageManager.sendMessage("MSG="+message.getText().toString());
+                    }
+                }).start();
             }
         });
 

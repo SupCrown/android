@@ -1,11 +1,14 @@
 package com.Kebaili_Bloise.controller;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -27,6 +30,28 @@ public class ControllerJoystick extends AppCompatActivity {
         JoystickView joystickView = new JoystickView(this, new JoystickValueChangedHandler());
         joystickView.setJoystickRadius(100);
         joystickContainer.addView(joystickView);
+
+        Intent intent = getIntent();
+        String pseudo = intent.getStringExtra("NAME");
+        String color = intent.getStringExtra("COL");
+        System.out.println(pseudo);
+
+        settings(pseudo, color);
+
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) EditText message = findViewById(R.id.message);
+
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button send = findViewById(R.id.send);
+        send.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        GameMessageManager.sendMessage("MSG="+message.getText().toString());
+                    }
+                }).start();
+            }
+        });
 
         ImageButton shootButton = findViewById(R.id.shutbuttonid);
         shootButton.setOnClickListener(v -> sendCommand("GunTrig=1"));
@@ -76,5 +101,18 @@ public class ControllerJoystick extends AppCompatActivity {
                 }
             }
         }).start(); // Start the thread
+    }
+
+    private void settings(String pseudo, String color) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                if (GameMessageManager.isConnected()) {
+                    GameMessageManager.sendMessage(pseudo);
+                    System.out.println(color);
+                    GameMessageManager.sendMessage(color);
+                }
+            }
+        }).start();
     }
 }

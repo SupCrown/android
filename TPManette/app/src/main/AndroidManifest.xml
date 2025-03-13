@@ -17,6 +17,9 @@
             android:name=".ControllerJoystick"
             android:exported="false" />
         <activity
+            android:name=".DebugWindow"
+            android:exported="false" />
+        <activity
             android:name=".Controller"
             android:exported="false" />
         <activity
